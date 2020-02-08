@@ -1,3 +1,6 @@
+
+![Learn Java](https://www.learnjavaonline.org/static/img/logos/learnjavaonline.org.png)
+
 # Learning Java on the GO
 
 _Robert Sewell_
@@ -34,5 +37,3 @@ public class myClass{
 |  Exceptions and handling Exceptions | :blue_book:   |
 |  JDBC                               | :orange_book: |
 |  Datastructures and Algorithms      | :ledger:      |
-
-![Learn Java](https://www.learnjavaonline.org/static/img/logos/learnjavaonline.org.png)
