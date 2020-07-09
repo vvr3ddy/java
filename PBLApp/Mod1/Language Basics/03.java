@@ -1,0 +1,9 @@
+public class Mod1 {
+
+	public static void main(String[] args) {
+    int arg1 = Integer.parseInt(args[0]);
+    int arg2 = Integer.parseInt(args[1]);
+    int sum = arg1+arg2;
+		System.out.println(sum);
+	}
+}
