@@ -28,7 +28,6 @@ public class CyclicSum {
 
             //debug statements start
 
-            System.out.println("Current Length:" + length);
             System.out.println("Current number:" + number);
             System.out.println("Current Sum:" + sum);
             System.out.println();
@@ -48,7 +47,8 @@ public class CyclicSum {
         int length = new String(String.valueOf(number)).length();
         int dig = 0;
 
-        System.out.println("Inside cycSum..");
+        System.out.println("Start Program Trace");
+        System.out.println();
 
         while (length > 0) {
 
@@ -70,6 +70,7 @@ public class CyclicSum {
             System.out.println("====================");
             System.out.println();
         }
+        System.out.println("Out of cycSum...\n Program Trace complete..");
         System.out.println("Cyclic Sum :" + cyclicSum);
         return cyclicSum;
     }
