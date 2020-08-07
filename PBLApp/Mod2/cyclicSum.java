@@ -24,8 +24,6 @@ public class CyclicSum {
             sum += dig;
             number = number - (dig * pos);
 
-            System.out.println("Current dig*pos:" + dig * pos);
-
             length--;
 
             //debug statements start
