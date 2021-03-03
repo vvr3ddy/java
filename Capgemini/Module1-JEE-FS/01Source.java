@@ -38,6 +38,9 @@ class Source {
 	}
 
 	public Integer getItemAtIndex(ArrayList<Integer> list, int index) {
+		if(index>list.size()){
+			return null;
+		}
 		return list.get(index);
 
 	}
