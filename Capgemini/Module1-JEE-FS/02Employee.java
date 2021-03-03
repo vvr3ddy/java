@@ -1,3 +1,15 @@
+package Main01;
+
+import java.util.*;
+
+public class Source {
+	public static void main(String[] args) throws Exception {
+		Employee e = new Employee(null, null);
+		ExceptionCheck ex = new ExceptionCheck();
+		ex.validateEmployee(e);
+	}
+}
+
 class Employee {
 	String employeeName;
 	Integer employeeID;
@@ -14,11 +26,10 @@ class ExceptionCheck {
 	public String validateEmployee(Employee employee) throws Exception {
 
 		try {
-			if (String.valueOf(employee.employeeID).isEmpty()||employee.employeeID <= 100 ||) {
-				throw new InvalidEmployeeException("Employee id invalid");
-			if (employee.employeeName.isEmpty()||employee.employeeName.length() < 3) {
+			if (employee.employeeName == null || employee.employeeName.length() < 3) {
 				throw new InvalidEmployeeException("Employee name invalid");
-			}
+			} if (employee.employeeID == null || employee.employeeID <= 100) {
+				throw new InvalidEmployeeException("Employee id invalid");
 			} else if (employee.employeeName.length() > 3 && employee.employeeID > 100) {
 				employee.status = "success";
 			}
