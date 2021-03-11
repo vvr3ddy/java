@@ -34,8 +34,7 @@ public class myClass{
 | :---         |      ---:               |
 |  Basics                             | :closed_book: |
 |  OOPS                               | :green_book:  |
-|  Exceptions and handling Exceptions | :blue_book:   |
-|  JDBC                               | :orange_book: |
+|  Exceptions                         | :blue_book:   |
+|  Design Patterns                    | :orange_book: |
 |  Datastructures and Algorithms      | :ledger:      |
 |  Hacker Rank Code                   | :trophy:      |
-|  Grahpical User Interface Related   | 💻            |
