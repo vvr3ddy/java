@@ -36,5 +36,5 @@ public class myClass{
 |  OOPS                               | :green_book:  |
 |  Exceptions                         | :blue_book:   |
 |  Design Patterns                    | :orange_book: |
-|  Datastructures and Algorithms      | :ledger:      |
+|  JDBC                               | :ledger:      |
 |  Hacker Rank Code                   | :trophy:      |
