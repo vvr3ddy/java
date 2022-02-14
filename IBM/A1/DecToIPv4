@@ -1,0 +1,26 @@
+class DecToIPv4 {
+    public static String binToIPv4(java.lang.String binIP) {
+        binIP = java.lang.Long.toBinaryString(java.lang.Long.parseLong(binIP));
+        java.lang.StringBuilder sb = new java.lang.StringBuilder();
+        if(binIP.length()<32){
+            for(int i = 0; i<32 - binIP.length();i++){
+                sb.append(0);
+            }
+            binIP = sb.toString()+binIP;
+        }
+        sb.setLength(0);
+        for (int i = 0; i < binIP.length(); i += 8) {
+            sb.append(java.lang.String.valueOf(java.lang.Long.parseLong(binIP.substring(i, i + 8), 2)));
+            if (i < binIP.length() - 8)
+                sb.append(".");
+        }
+        return sb.toString();
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(DecToIPv4.binToIPv4("175480832"));
+
+    }
+}
