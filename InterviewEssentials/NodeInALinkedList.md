@@ -1,4 +1,4 @@
-Certainly! Here is a simple Java class that defines a node for a singly linked list, along with comments explaining each part of the code:
+A simple Java class that defines a node for a singly linked list, along with comments explaining each part of the code:
 
 ```java
 /**
